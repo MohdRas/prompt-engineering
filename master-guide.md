@@ -28,7 +28,7 @@ An ultra-concise, high-density reference manual and cheat sheet for mastering pr
 
 ### Key Definitions
 
-* **Prompt Engineering:** The systematic process of **structuring, refining, and optimizing** <span style="color:gray;">natural language inputs</span> to guide **Generative AI / Large Language Models (LLMs)** toward precise, contextually accurate outputs.
+* **Prompt Engineering:** The systematic process of **structuring, refining, and optimizing** **`natural language inputs`:** to guide **Generative AI / Large Language Models (LLMs)** toward precise, contextually accurate outputs.
 
 * **`In-Context Learning`:** The mechanism where an `LLM` adapts its behavior and output format purely from instructions and examples provided inside the prompt payload—without altering its pre-trained network weights.
 
