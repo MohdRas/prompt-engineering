@@ -33,7 +33,7 @@ An ultra-concise, high-density reference manual and cheat sheet for mastering pr
 * **`In-Context Learning`:** The mechanism where an `LLM` adapts its behavior and output format purely from instructions and examples provided inside the prompt payload—without altering its pre-trained network weights.
 
 * **Discriminative vs. Generative AI:**
-  * ***`Discriminative AI`:*** Machine learning models that classify existing data records into categories or predict numerical values (e.g., *Spam vs. Not Spam*).
+  * ***`Discriminative AI`:*** Machine learning models that **classify existing data records into categories** or predict numerical values (e.g., **Spam vs. Not Spam**).
   * ***`Generative AI`:*** Machine learning models that synthesize entirely new data (text, code, images, audio) based on learned probabilistic patterns.
 
 ---
@@ -42,17 +42,17 @@ An ultra-concise, high-density reference manual and cheat sheet for mastering pr
 
 * **`Sequence-to-Sequence Transformer Architectures`:**
   * **What it is:** A deep learning neural network design introduced in 2017 that processes sequential data (like sentences).
-  * **How it works:** It takes an input sequence of words (the prompt), converts them into vectors, uses an **`Attention Mechanism`** to understand relationships between all words simultaneously, and maps them to an output sequence of words (the response).
+  * **How it works:** It takes an input sequence of words (the prompt), converts them into vectors, uses an **`Attention Mechanism`** to understand **relationships between all words simultaneously**, and maps them to an output sequence of words (the response).
 
 * **`Parameters`:**
-  * **What they are:** The adjustable internal numerical parameters (weights and biases) of a neural network stored during pre-training.
-  * **Role:** They dictate how input data is transformed into output. Higher parameter counts enable the model to memorize and synthesize complex world knowledge and subtle language nuances.
+  * **What they are:** The adjustable **internal numerical parameters (weights and biases) of a neural network** stored during pre-training.
+  * **Role:** They dictate **how input data is transformed into output**. Higher parameter counts enable the model to memorize and synthesize complex world knowledge and subtle language nuances.
 
 * **`Attention Mechanism`:**
-  * A mathematical technique within Transformers that allows the model to dynamically dynamically calculate which specific words in a sentence are most relevant to each other, regardless of their distance apart.
+  * A mathematical technique within Transformers that allows the model to dynamically calculate which specific words in a sentence are most relevant to each other, regardless of their distance apart.
 
 * **`Tokens`:**
-  * The fundamental unit of text processed by an LLM ($1\text{ Token} \approx 4\text{ characters} \approx 0.75\text{ words}$). $1,000\text{ tokens} \approx 750\text{ words}$.
+  * **The fundamental unit of text processed by an LLM** ($1\text{ Token} \approx 4\text{ characters} \approx 0.75\text{ words}$). $1,000\text{ tokens} \approx 750\text{ words}$.
 
 ---
 
