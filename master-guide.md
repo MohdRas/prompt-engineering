@@ -63,7 +63,7 @@ An ultra-concise, high-density reference manual and cheat sheet for mastering pr
   * `GPT-3`: $175\text{ Billion}$ **`Parameters`**
   * `GPT-4`: $\sim 1.7\text{ Trillion}$ **`Parameters`**
 
-* **`Next-Word Prediction Engine`:** LLMs act as probabilistic auto-completion mechanisms, calculating probability distributions across their vocabulary to output tokens sequentially.
+* **`Next-Word Prediction Engine`:** LLMs act as **probabilistic auto-completion mechanisms**, calculating probability distributions across their vocabulary to output tokens sequentially.
 
 * **UI vs. Core Model Disambiguation:**
   * *`GPT-3.5` / `GPT-4`:* The underlying `LLM` neural network engines.
@@ -73,7 +73,11 @@ An ultra-concise, high-density reference manual and cheat sheet for mastering pr
 
 ### Technical Metrics & Security Concepts
 
+**Hallucination**   - Confident generation of **factually incorrect details**
+
 ```
+**Hallucination**   - Confident generation of factually incorrect details      │
+
 ┌─────────────────┬──────────────────────────────────────────────────────────┐
 │ KEYWORD / RISK  │ TECHNICAL SPECIFICATION / DEFINITION                     │
 ├─────────────────┼──────────────────────────────────────────────────────────┤
@@ -159,7 +163,7 @@ Every top 1% prompt is a structured payload built using up to five core componen
 ### Parameter Deep-Dive: `Temperature` Explained
 
 * **`Temperature` ($0.0 - 2.0$):**
-  * **What it is:** A hyperparameter that controls the randomness/unpredictability of the model's next-word probability selection.
+  * **What it is:** A hyperparameter that controls the **randomness/unpredictability** of the model's next-word probability selection.
   * **Mechanism:** 
     * At **`Temperature = 0.0`**, the model becomes deterministic; it always picks the single most probable next token (Greedy Decoding). Best for math, facts, and code.
     * At **`Temperature = 1.0+`**, probability distribution is flattened, allowing the model to choose lower-probability tokens. Best for creative writing and brainstorming.
