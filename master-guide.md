@@ -1,5 +1,9 @@
 # 🚀 Top 1% Prompt Engineering Master Guide & Enterprise Cheatsheet
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Model Compatibility](https://img.shields.io/badge/LLMs-GPT--4%20%7C%20Claude%203.5%20%7C%20Llama%203-blue)](https://openai.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](README.md)
+
 An ultra-concise, high-density reference manual and cheat sheet for mastering prompt engineering, passing AI certification exams, and deploying enterprise-grade generative AI prompts.
 
 ---
