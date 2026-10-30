@@ -355,7 +355,7 @@ Test your knowledge with these 10 core concepts:
 3. **GPT-4 vs. ChatGPT:** `GPT-4` is the underlying neural network engine; `ChatGPT` is the dialogue application UI.
 4. **4 Core Prompt Components:** Instruction (Mandatory), Context, Input Data, Output Format.
 5. **Chain-of-Thought (`CoT`):** Guiding the model through step-by-step intermediate reasoning tokens before writing the final output.
-6. **Token:** The fundamental text unit processed by LLMs ($\approx 4\text{ chars} \approx 0.75\text{ words}$).
+6. **Token:** **The fundamental text unit** processed by LLMs ($\approx 4\text{ chars} \approx 0.75\text{ words}$).
 7. **`Few-Shot Prompting`:** Providing 1–5 input/output examples inside the prompt to enforce output format and style.
 8. **`Temperature`:** Hyperparameter controlling next-word selection randomness ($0.0 = \text{Deterministic}$; $1.0+ = \text{Creative}$).
 9. **`Hallucination`:** Factually false output generated with high confidence. Mitigated using grounded context data.
