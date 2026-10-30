@@ -49,7 +49,7 @@ An ultra-concise, high-density reference manual and cheat sheet for mastering pr
   * **Role:** They dictate **how input data is transformed into output**. Higher parameter counts enable the model to memorize and synthesize complex world knowledge and subtle language nuances.
 
 * **`Attention Mechanism`:**
-  * A mathematical technique within Transformers that allows the model to dynamically calculate which specific words in a sentence are most relevant to each other, regardless of their distance apart.
+  * A mathematical technique within Transformers that allows the model to dynamically calculate **which specific words in a sentence are most relevant to each other, regardless of their distance apart**.
 
 * **`Tokens`:**
   * **The fundamental unit of text processed by an LLM** ($1\text{ Token} \approx 4\text{ characters} \approx 0.75\text{ words}$). $1,000\text{ tokens} \approx 750\text{ words}$.
